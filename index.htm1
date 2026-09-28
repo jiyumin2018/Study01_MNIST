@@ -3,42 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=web_version/">
     <title>MNIST 손글씨 숫자 인식</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-<header>
-    <h1>학번 2601984 이름 지유민</h1>
-    <p>MNIST 손글씨 숫자 인식 웹 앱</p>
-</header>
-
-<main>
-
-    <h2>손글씨 숫자 인식</h2>
-
     <p>
-        아래 화면에 숫자 0~9 중 하나를 그려주세요.
+        <a href="web_version/">
+            손글씨 숫자 인식 웹 앱으로 이동
+        </a>
     </p>
-
-    <canvas id="canvas" width="280" height="280"></canvas>
-
-    <br>
-
-    <button onclick="recognize()">인식하기</button>
-    <button onclick="clearCanvas()">지우기</button>
-
-    <h2>인식 결과</h2>
-
-    <div id="result">-</div>
-
-    <p id="status">AI 모델을 불러오는 중입니다...</p>
-
-</main>
-
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.20.0/dist/tf.min.js"></script>
-<script src="app.js"></script>
-
 </body>
 </html>
